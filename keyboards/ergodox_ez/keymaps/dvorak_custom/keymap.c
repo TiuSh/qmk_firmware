@@ -23,10 +23,10 @@
 // NONE key
 #define XXXXXXX KC_NO
 
-// Custome keycodes
-#define CC_SLSH ALTGR(CSA_ECUT)
-#define CC_BSLS ALTGR(CSA_EGRV)
-#define CC_PIPE ALTGR(KC_MINUS)
+// Custom keycodes
+/* #define CC_SLSH ALTGR(CSA_ECUT) */
+/* #define CC_BSLS ALTGR(CSA_EGRV) */
+/* #define CC_PIPE ALTGR(KC_MINUS) */
 #define CC_AE ALTGR(KC_A)
 #define CC_OE ALTGR(KC_Q)
 #define CC_DACT LSFT(ALTGR(KC_SCLN))
@@ -129,9 +129,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     // right hand
     _______,                KC_F6,                   KC_F7,                   KC_F8,                   KC_F9,                   KC_F10,                  KC_F11,
-    _______,                CC_BSLS,                 CSA_LESS,                CSA_GRTR,                KC_EQUAL,                _______,                 KC_F12,
-                            CC_SLSH,                 KC_LPRN,                 KC_RPRN,                 KC_PLUS,                 _______,                 _______,
-    _______,                CC_PIPE,                 KC_MINUS,                KC_UNDS,                 _______,                 _______,                 _______,
+    _______,                CSA_BSLS,                CSA_LESS,                CSA_GRTR,                KC_EQUAL,                _______,                 KC_F12,
+                            CSA_SLSH,                KC_LPRN,                 KC_RPRN,                 KC_PLUS,                 _______,                 _______,
+    _______,                CSA_PIPE,                KC_MINUS,                KC_UNDS,                 _______,                 _______,                 _______,
                                                      _______,                 _______,                 _______,                 _______,                 _______,
 
     _______,                _______,
@@ -210,7 +210,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     VRSN,                   _______,                 _______,                 _______,                 _______,                 _______,                 _______,
     _______,                _______,                 CC_LDSK,                 KC_UP,                   CC_RDSK,                 _______,                 _______,
     _______,                _______,                 KC_LEFT,                 KC_DOWN,                 KC_RIGHT,                _______,
-    _______,                KC_LSFT,                 KC_LGUI,                 KC_LALT,                 KC_LCTRL,                _______,                 _______,
+    CSA_U_GRAVE,            KC_LSFT,                 KC_LGUI,                 KC_LALT,                 KC_LCTRL,                _______,                 _______,
     _______,                _______,                 _______,                 _______,                 _______,
 
                                                                                                                                 _______,                 _______,
@@ -221,7 +221,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     _______,                _______,                 _______,                 _______,                 _______,                 _______,                 _______,
     _______,                KC_WH_D,                 KC_BTN1,                 KC_MS_U,                 KC_BTN2,                 KC_ACL0,                 _______,
                             KC_WH_U,                 KC_MS_L,                 KC_MS_D,                 KC_MS_R,                 KC_ACL2,                 _______,
-    _______,                _______,                 KC_RCTRL,                KC_RALT,                 KC_RGUI,                 KC_RSFT,                 _______,
+    _______,                _______,                 KC_RCTRL,                KC_RALT,                 KC_RGUI,                 KC_RSFT,                 CSA_E_ACUTE,
                                                      _______,                 _______,                 _______,                 _______,                 _______,
 
     _______,                _______,

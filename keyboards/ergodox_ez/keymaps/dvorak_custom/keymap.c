@@ -66,7 +66,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *                                 ,------|------|------|       |------+--------+------.
  *                                 |      |      |  V-  |       | Prev |        |      |
  *                                 | LCtrl| LGUI |------|       |------|  RAlt  |RShift|
- *                                 |      |      | LAlt |       |      |        |      |
+ *                                 | Space|      | LAlt |       |      |        |Space |
  *                                 `--------------------'       `----------------------'
  */
 [BASE] = LAYOUT_ergodox(
@@ -79,7 +79,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
                                                                                                                               KC_MPLY,                 KC_VOLU,
                                                                                                                                                        KC_VOLD,
-                                                                                                     KC_LCTRL,                KC_LGUI,                 KC_LALT,
+                                                                                                     LCTL_T(KC_SPC),          KC_LGUI,                 KC_LALT,
 
   // right hand
   KC_DEL,                 KC_6,                    KC_7,                    KC_8,                    KC_9,                    KC_0,                    XXXXXXX,
@@ -90,7 +90,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   KC_MNXT,                KC_MSTP,
   KC_MPRV,
-  KC_RALT,                KC_RALT,                 KC_RSFT
+  KC_RALT,                KC_RALT,                 RSFT_T(KC_SPC)
 ),
 
 /* Keymap 1: Symbols

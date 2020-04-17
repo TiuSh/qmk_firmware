@@ -24,13 +24,13 @@
 #define XXXXXXX KC_NO
 
 // Custom keycodes
-/* #define CC_SLSH ALTGR(CSA_ECUT) */
-/* #define CC_BSLS ALTGR(CSA_EGRV) */
-/* #define CC_PIPE ALTGR(KC_MINUS) */
-#define CC_AE ALTGR(KC_A)
-#define CC_OE ALTGR(KC_Q)
-#define CC_DACT LSFT(ALTGR(KC_SCLN))
-#define CC_DTLD LSFT(ALTGR(CSA_CCED))
+/* #define CC_SLSH ALGR(CSA_ECUT) */
+/* #define CC_BSLS ALGR(CSA_EGRV) */
+/* #define CC_PIPE ALGR(KC_MINUS) */
+#define CC_AE ALGR(KC_A)
+#define CC_OE ALGR(KC_Q)
+#define CC_DACT LSFT(ALGR(KC_SCLN))
+#define CC_DTLD LSFT(ALGR(CSA_CCED))
 
 // Custom macros
 enum custom_macros {
@@ -72,7 +72,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [BASE] = LAYOUT_ergodox(
   // left hand
   _______,                KC_1,                    KC_2,                    KC_3,                    KC_4,                    KC_5,                    KC_DEL,
-  KC_ESC,                 ALTGR(CSA_AGRV),         KC_COMM,                 KC_DOT,                  KC_P,                    KC_Y,                    KC_SPC,
+  KC_ESC,                 ALGR(CSA_AGRV),         KC_COMM,                 KC_DOT,                  KC_P,                    KC_Y,                    KC_SPC,
   KC_LSFT,                KC_A,                    KC_O,                    KC_E,                    KC_U,                    KC_I,
   KC_LGUI,                KC_SCLN,                 KC_Q,                    KC_J,                    KC_K,                    KC_X,                    KC_TAB,
   KC_LEFT,                KC_RIGHT,                KC_DOWN,                 KC_UP,                   MO(ACTS),

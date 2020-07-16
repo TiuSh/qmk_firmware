@@ -38,10 +38,10 @@ enum custom_macros {
   _CK = SAFE_RANGE, // must always be here
   VRSN,
   RGB_SLD,
-  CC_GRV,  // `
-  CC_CIRC, // ˆ
-  CC_TILD, // ~
-  CC_ICRC, // î
+  CC_GRV,   // `
+  CC_CIRC,  // ˆ
+  CC_TILD,  // ~
+  CC_ICRC,  // î
   CC_ITRM,  // ï
   CC_LDSK,  // CMD + Left
   CC_RDSK,  // CMD + Right
@@ -73,7 +73,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [BASE] = LAYOUT_ergodox(
   // left hand
   _______,                KC_1,                    KC_2,                    KC_3,                    KC_4,                    KC_5,                    KC_DEL,
-  KC_ESC,                 ALGR(CSA_AGRV),         KC_COMM,                 KC_DOT,                  KC_P,                    KC_Y,                    KC_SPC,
+  KC_ESC,                 ALGR(CSA_AGRV),          KC_COMM,                 KC_DOT,                  KC_P,                    KC_Y,                    KC_SPC,
   KC_LSFT,                KC_A,                    KC_O,                    KC_E,                    KC_U,                    KC_I,
   KC_LGUI,                KC_SCLN,                 KC_Q,                    KC_J,                    KC_K,                    KC_X,                    KC_TAB,
   KC_LEFT,                KC_RIGHT,                KC_DOWN,                 KC_UP,                   MO(ACTS),
@@ -105,7 +105,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
  * |        |      |  &   |  %   |  $   |  *   |      |           |      |   |  |  -   |  _   |      |      |        |
  * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
- *   |      |Toggle|Animat|Solid |  L3  |                                       |      |      |      |      |      |
+ *   |      |Toggle|Animat|Solid |  L3  |                                       |      |  L4  |      |      |      |
  *   `----------------------------------'                                       `----------------------------------'
  *                                        ,-------------.       ,-------------.
  *                                        |      |      |       |      |      |

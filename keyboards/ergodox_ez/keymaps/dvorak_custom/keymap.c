@@ -330,9 +330,9 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         return false; break;
 
       case CC_GRV:
-        HOLD(KC_LALT);
+        HOLD(KC_RALT);
         TAP(CSA_DCRC);
-        RELEASE(KC_LALT);
+        RELEASE(KC_RALT);
         TAP(KC_SPC);
         return false; break;
 
@@ -342,9 +342,9 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         return false; break;
 
       case CC_TILD:
-        HOLD(KC_LALT);
+        HOLD(KC_RALT);
         TAP(CSA_CCED);
-        RELEASE(KC_LALT);
+        RELEASE(KC_RALT);
         return false; break;
 
       case CC_ICRC:

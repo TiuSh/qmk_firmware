@@ -73,7 +73,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [BASE] = LAYOUT_ergodox(
   // left hand
   _______,                KC_1,                    KC_2,                    KC_3,                    KC_4,                    KC_5,                    KC_DEL,
-  KC_ESC,                 ALGR(CSA_AGRV),          KC_COMM,                 KC_DOT,                  KC_P,                    KC_Y,                    KC_SPC,
+  KC_ESC,                 CC_GRV,                  KC_COMM,                 KC_DOT,                  KC_P,                    KC_Y,                    KC_SPC,
   KC_LSFT,                KC_A,                    KC_O,                    KC_E,                    KC_U,                    KC_I,
   KC_LGUI,                KC_SCLN,                 KC_Q,                    KC_J,                    KC_K,                    KC_X,                    KC_TAB,
   KC_LEFT,                KC_RIGHT,                KC_DOWN,                 KC_UP,                   MO(ACTS),
@@ -194,7 +194,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
  * |        |      |  ←   |  ↓   |  →   |      |------|           |------| ScrlU|  ⇠   |  ⇣   |  ⇢   | Spd- |        |
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
- * |        |LShift| LGui | LAlt | LCtrl|      |      |           |      |      | RCtrl| RAlt | RGui |RShift|        |
+ * |        |      |      |      |      |      |      |           |      |      | LCtrl| RAlt | RGui |RShift|        |
  * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
  *   |      |      |      |      |      |                                       |      |      |      |      |      |
  *   `----------------------------------'                                       `----------------------------------'
@@ -211,7 +211,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     VRSN,                   _______,                 _______,                 _______,                 _______,                 _______,                 _______,
     _______,                _______,                 CC_LDSK,                 KC_UP,                   CC_RDSK,                 _______,                 _______,
     _______,                _______,                 KC_LEFT,                 KC_DOWN,                 KC_RIGHT,                _______,
-    CSA_U_GRAVE,            KC_LSFT,                 KC_LGUI,                 KC_LALT,                 KC_LCTRL,                _______,                 _______,
+    _______,                _______,                 _______,                 _______,                 _______,                 _______,                 _______,
     _______,                _______,                 _______,                 _______,                 _______,
 
                                                                                                                                 _______,                 _______,
@@ -222,7 +222,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     _______,                _______,                 _______,                 _______,                 _______,                 _______,                 _______,
     _______,                KC_WH_D,                 KC_BTN1,                 KC_MS_U,                 KC_BTN2,                 KC_ACL0,                 _______,
                             KC_WH_U,                 KC_MS_L,                 KC_MS_D,                 KC_MS_R,                 KC_ACL2,                 _______,
-    _______,                _______,                 KC_RCTRL,                KC_RALT,                 KC_RGUI,                 KC_RSFT,                 CSA_E_ACUTE,
+    _______,                _______,                 KC_LCTRL,                KC_RALT,                 KC_RGUI,                 KC_RSFT,                 CSA_E_ACUTE,
                                                      _______,                 _______,                 _______,                 _______,                 _______,
 
     _______,                _______,
